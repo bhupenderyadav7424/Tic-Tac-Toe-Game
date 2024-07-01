@@ -53,7 +53,7 @@ const gameDraw = () => {
     msg.innerText = `Game was a Draw.`;
     msgContainer.classList.remove("hide");
     disableBoxes();
-}
+};
 
 const disableBoxes = () => {
     for(let box of boxes) {
